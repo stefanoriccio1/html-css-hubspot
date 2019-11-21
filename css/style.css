@@ -11,11 +11,12 @@ header{
 
 /* header-top */
 .header-top{
-  background-color: blue;
-  height: 100px;
+  background-color: #F5F8FA;
+  /* height: 100px; */
   width: 85%;
   margin: auto;
 }
+/* navbar */
 .primanavbar:after{
   content: "";
   clear: both;
@@ -24,26 +25,56 @@ header{
 .primanavbar{
   background-color: #F5F8FA;
 }
+.navbar {
+  height: 60px;
+  line-height: 30px;
+  padding: 15px 0;
+}
+.list{
+  list-style: none;
+}
+.list li{
+  display: inline-block;
+  margin-right: 12px;
+}
 /* navbar left */
 .navbar.left{
   float: left;
-  background-color: violet;
-}
-.contact{
-  list-style: none;
-  color: black;
-}
-.contact li{
-  display: inline-block;
 }
 .contact li a{
   text-decoration: none;
   color: #4D5E70;
+  text-align: center;
+}
+.contact li:first-child{
+  border-right: 2px solid #4D5E70;
+  padding-right: 10px;
+  margin-right: 5px;
+}
+.contact li:last-child{
+  padding-left: 10px;
+  margin-left: 5px;
+}
+.fa-globe-europe,
+.fa-chevron-down{
+  vertical-align: middle;
+  font-size: 14px;
+}
+.fa-globe-europe{
+  margin-right: 4px;
+}
+.fa-chevron-down{
+  margin-left: 4px;
+  margin-right: 14px;
 }
 /* nabar right */
 .navbar.right{
   float: right;
   background-color: lime;
+}
+.menu.list li a{
+  text-decoration: none;
+  color: white;
 }
 /* header bottom */
 .header-bottom{
