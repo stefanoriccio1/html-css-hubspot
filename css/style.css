@@ -22,14 +22,25 @@ header{
   display: table;
 }
 .primanavbar{
-  background-color: brown;
+  background-color: #F5F8FA;
 }
 /* navbar left */
 .navbar.left{
   float: left;
   background-color: violet;
 }
-
+.contact{
+  list-style: none;
+  color: black;
+}
+.contact li{
+  display: inline-block;
+}
+.contact li a{
+  text-decoration: none;
+  color: #4D5E70;
+}
+/* nabar right */
 .navbar.right{
   float: right;
   background-color: lime;
