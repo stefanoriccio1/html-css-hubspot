@@ -3,3 +3,31 @@
   margin: 0;
   padding: 0
 }
+/* header */
+header{
+  background-color: pink;
+  height: 200px;
+}
+
+/* header-top */
+.header-top{
+  background-color: blue;
+  height: 100px;
+}
+/* header bottom */
+.header-bottom{
+  background-color: red;
+  height: 100px;
+}
+
+/* main */
+main{
+  background-color: green;
+  height: 400px;
+}
+
+/* footer */
+footer{
+  background-color: yellow;
+  height: 200px;
+}
