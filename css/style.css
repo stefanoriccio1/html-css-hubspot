@@ -8,13 +8,15 @@ header{
   background-color: pink;
   height: 200px;
 }
-
+.button{
+  border:2px solid #F28E71;
+  border-radius: 5px;
+  padding:7px;
+}
 /* header-top */
 .header-top{
   background-color: #F5F8FA;
   /* height: 100px; */
-  width: 85%;
-  margin: auto;
 }
 /* navbar */
 .primanavbar:after{
@@ -24,6 +26,8 @@ header{
 }
 .primanavbar{
   background-color: #F5F8FA;
+  width: 80%;
+  margin: auto;
 }
 .navbar {
   height: 60px;
@@ -67,15 +71,25 @@ header{
   margin-left: 4px;
   margin-right: 14px;
 }
-/* nabar right */
+/* navbar right */
 .navbar.right{
   float: right;
-  background-color: lime;
 }
 .menu.list li a{
   text-decoration: none;
   color: white;
 }
+.menu.list li .login{
+  color: #F28E71;
+}
+.menu.list li .github{
+  background-color: #F28E71;
+}
+.menu.list li .fa-search{
+  color: #43A5BE;
+}
+
+
 /* header bottom */
 .header-bottom{
   background-color: red;
