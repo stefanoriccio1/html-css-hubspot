@@ -218,20 +218,59 @@ main{
   width: 100%;
   margin: 0;
   background-color: blue;
+  padding:20px
 }
 .container2::after{
   content: "";
   clear: both;
   display: table;
 }
+/* container2 left */
+
 .container2-left{
   float: left;
-  width: 10%;
+  width: 30%;
   text-align: center;
   background-color: white;
 }
+.container2-left img{
+  width: auto;
+  height: 80px;
+}
+.container2-left .button{
+  margin-top: 30px;
+  background-color: #F28E71;
+  font-size: 15px;
+  padding: 13px;
+  text-decoration: none;
+  color: white;
+}
+.container2-left .imgleft2{
+  margin-top: 20px;
+}
+/* container 2 right */
 .container2-right{
   float: right;
+  width: 70%;
+  padding-left: 30px;
+  text
+}
+.container2-right h2{
+  color: #33465B;
+  margin-bottom: 10px;
+}
+.container2-right p{
+  color: #33465B;
+  margin-bottom: 10px;
+}
+
+.container2-right .container2-list li{
+  display: inline-block;
+  text-align: center;
+}
+.container2-right .container2-list .hr{
+  width: 300px;
+  vertical-align: middle;
 }
 
 /* main-center */
