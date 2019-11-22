@@ -88,6 +88,32 @@ header{
 .menu.list li .fa-search{
   color: #43A5BE;
 }
+/* seconda navbar */
+.container{
+  background-color: white;
+  height: 200px;
+  width: auto;
+}
+.secondanavbar:after{
+  ontent: "";
+  clear: both;
+  display: table;
+}
+.secondanavbar{
+  width: 80%;
+  margin: auto;
+}
+.logo{
+  width: 100px;
+  height: 60px;
+  margin-left: -5px;
+}
+.menu.second{
+  list-style: none;
+  text-decoration: none;
+  color: #7C98B6;
+}
+
 
 
 /* header bottom */
