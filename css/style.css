@@ -217,8 +217,11 @@ main{
 .container2{
   width: 100%;
   margin: 0;
-  background-color: blue;
-  padding:20px
+  background-color: white;
+  padding:40px;
+  margin-top:40px;
+  box-shadow: 2px;
+  border-radius: 10px;
 }
 .container2::after{
   content: "";
@@ -252,8 +255,8 @@ main{
 .container2-right{
   float: right;
   width: 70%;
-  padding-left: 30px;
-  text
+  padding-left:70px;
+  color: #33465B
 }
 .container2-right h2{
   color: #33465B;
@@ -271,6 +274,15 @@ main{
 .container2-right .container2-list .hr{
   width: 300px;
   vertical-align: middle;
+  color: #33465B;
+}
+.fa-check-circle{
+  vertical-align: middle;
+  color: #F07857;
+}
+]
+.container2-right .contact{
+  padding-top: 50px;
 }
 
 /* main-center */
