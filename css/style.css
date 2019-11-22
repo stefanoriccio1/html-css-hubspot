@@ -24,7 +24,9 @@ header{
   border:2px solid #F28E71;
   border-radius: 5px;
   padding:7px;
+  text-decoration: none;
 }
+
 /* header-top */
 .header-top{
   background-color: #F5F8FA;
@@ -280,6 +282,7 @@ main{
 .fa-check-circle{
   vertical-align: middle;
   color: #F07857;
+  margin-right: 10px;
 }
 .container2-right .contact{
   padding-top: 50px;
@@ -293,18 +296,18 @@ main{
 }
 .triplebox{
   width: 80%;
-  background-color: grey;
   margin: 40px auto 40px;
   height: 500px;
   margin
 }
 .box-center{
   float: left;
-  background-color: yellow;
-  height: 200px;
+  background-color: white;
   width: 30%;
   text-align: center;
   padding: 15px;
+  box-shadow: 2px;
+  border-radius: 10px;
 }
 .box-center.sales{
   margin: 0 5%;
@@ -324,7 +327,18 @@ main{
 }
 .box-center hr{
  width: 50%;
+ margin: 0 25% 20px 25%;
 }
+.box-center .box-list{
+  list-style: none;
+  text-align: justify;
+  margin: 20px auto;
+}
+.box-center .button{
+  background-color: #F07857;
+  color: white;
+}
+
 /* main-center */
 .main-center{
   height: 400px;
