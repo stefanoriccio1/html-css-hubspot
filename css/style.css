@@ -196,6 +196,7 @@ main{
   background-color: #F5F8FA;
   margin: auto;
 }
+/* container1 */
 .container1{
   width: 100%;
   margin: auto;
@@ -211,6 +212,12 @@ main{
 }
 .container1 p{
   padding: 0 180px;
+}
+/* container2 */
+.container2{
+  width: 80%;
+  margin: 0;
+  background-color: white;
 }
 /* main-center */
 .main-center{
