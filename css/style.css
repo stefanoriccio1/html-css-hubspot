@@ -187,7 +187,6 @@ header{
 /* main */
 main{
   background-color: #F5F8FA;
-  height: 400px;
 }
 /* main-top */
 .main-top{
@@ -266,7 +265,6 @@ main{
   color: #33465B;
   margin-bottom: 10px;
 }
-
 .container2-right .container2-list li{
   display: inline-block;
   text-align: center;
@@ -276,15 +274,57 @@ main{
   vertical-align: middle;
   color: #33465B;
 }
+.listmiddle{
+  margin-top: 15px;
+}
 .fa-check-circle{
   vertical-align: middle;
   color: #F07857;
 }
-]
 .container2-right .contact{
   padding-top: 50px;
 }
 
+/* triple box aligned */
+.triplebox::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.triplebox{
+  width: 80%;
+  background-color: grey;
+  margin: 40px auto 40px;
+  height: 500px;
+  margin
+}
+.box-center{
+  float: left;
+  background-color: yellow;
+  height: 200px;
+  width: 30%;
+  text-align: center;
+  padding: 15px;
+}
+.box-center.sales{
+  margin: 0 5%;
+}
+
+.box-center .box-img{
+  height: 100px;
+  margin-bottom: 15px;
+}
+.box-center h3{
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.box-center p{
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.box-center hr{
+ width: 50%;
+}
 /* main-center */
 .main-center{
   height: 400px;
