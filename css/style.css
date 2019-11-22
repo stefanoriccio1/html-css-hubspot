@@ -5,8 +5,20 @@
 }
 /* header */
 header{
-  background-color: pink;
+  position: relative;
+  background-color: #FDF2EE;
   height: 600px;
+}
+.bar{
+  position: absolute;
+  bottom: -1px;
+  height: 60px;
+  width: 100%;
+  color: #ACEAE3;
+  background-color: #ACEAE3;
+  z-index: 2;
+  border-top: 2px solid #33465B;
+  border-bottom: 2px solid #33465B;
 }
 .button{
   border:2px solid #F28E71;
@@ -129,7 +141,9 @@ header{
 .header-bottom{
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
-  background-position: 100% 100%;
+  background-position: 100% 90%;
+  background-size: 83%;
+  background-position: cover;
 }
 .container-banner{
   width: 80%;
@@ -138,7 +152,7 @@ header{
 .banner{
   position: relative;
   height: 480px;
-  width: 27%;
+  width: 31%;
   margin: 0;
   text-align: left;
 }
@@ -150,6 +164,24 @@ header{
 }
 .testo-banner .titolo{
   margin-bottom: 20px;
+  color: #33465B;
+  font-size: 40px;
+}
+.testo-banner p{
+  color: #33465B;
+  font-size: 15px;
+  margin-bottom: 35px;
+}
+.testo-banner .button{
+  padding: 15px 20px;
+  text-decoration: none;
+  color: white;
+  background-color: #F18D71;
+}
+.testo-banner h4{
+  margin-top: 30px;
+  color: #33465B;
+  font-size: 12px;
 }
 
 /* main */
