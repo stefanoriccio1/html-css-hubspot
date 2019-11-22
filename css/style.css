@@ -158,7 +158,7 @@ header{
 }
 .testo-banner{
   position: absolute;
-  top: 35%;
+  top: 40%;
   left: 0;
   transform: translateY(-50%);
 }
@@ -186,8 +186,41 @@ header{
 
 /* main */
 main{
-  background-color: green;
+  background-color: #F5F8FA;
   height: 400px;
+}
+/* main-top */
+.main-top{
+  position: relative;
+  width: 80%;
+  background-color: #F5F8FA;
+  margin: auto;
+}
+.container1{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: #33465B;
+}
+.container1 .cubo{
+  margin-bottom: 15px;
+}
+.container1 h2 {
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+.container1 p{
+  padding: 0 180px;
+}
+/* main-center */
+.main-center{
+  height: 400px;
+  background-color: #50B9A9;
+}
+/* main-bottom */
+.main-bottom{
+  height: 400px;
+  background-color: pink;
 }
 
 /* footer */
