@@ -215,10 +215,25 @@ main{
 }
 /* container2 */
 .container2{
-  width: 80%;
+  width: 100%;
   margin: 0;
+  background-color: blue;
+}
+.container2::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.container2-left{
+  float: left;
+  width: 10%;
+  text-align: center;
   background-color: white;
 }
+.container2-right{
+  float: right;
+}
+
 /* main-center */
 .main-center{
   height: 400px;
