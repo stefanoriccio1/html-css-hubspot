@@ -6,7 +6,7 @@
 /* header */
 header{
   background-color: pink;
-  height: 200px;
+  height: 600px;
 }
 .button{
   border:2px solid #F28E71;
@@ -92,6 +92,7 @@ header{
 .container{
   background-color: white;
   width: auto;
+  border-top: 1px solid #33465B;
 }
 .secondanavbar:after{
   content: "";
@@ -124,13 +125,31 @@ header{
 #pricing{
   margin-right: 12px;
 }
-
-
-
 /* header bottom */
 .header-bottom{
-  background-color: red;
-  height: 100px;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+.container-banner{
+  width: 80%;
+  margin: auto;
+}
+.banner{
+  position: relative;
+  height: 480px;
+  width: 27%;
+  margin: 0;
+  text-align: left;
+}
+.testo-banner{
+  position: absolute;
+  top: 35%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.testo-banner .titolo{
+  margin-bottom: 20px;
 }
 
 /* main */
