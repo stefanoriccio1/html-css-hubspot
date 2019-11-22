@@ -91,11 +91,10 @@ header{
 /* seconda navbar */
 .container{
   background-color: white;
-  height: 200px;
   width: auto;
 }
 .secondanavbar:after{
-  ontent: "";
+  content: "";
   clear: both;
   display: table;
 }
@@ -105,13 +104,25 @@ header{
 }
 .logo{
   width: 100px;
-  height: 60px;
+  height: 70px;
   margin-left: -5px;
+  margin-top: 0;
+  vertical-align: middle;
+  padding-bottom: 20px;
 }
 .menu.second{
   list-style: none;
+}
+.menu.second li{
+  display: inline-block;
+  margin-left: 12px;
+}
+.menu.second li a{
   text-decoration: none;
   color: #7C98B6;
+}
+#pricing{
+  margin-right: 12px;
 }
 
 
