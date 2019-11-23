@@ -410,8 +410,21 @@ main{
 }
 /* main-bottom */
 .main-bottom{
+  width: 80%;
   height: 400px;
+  margin: auto;
   background-color: pink;
+}
+.main-bottom .top{
+  width: 90%;
+  height: 100px;
+  margin: auto;
+  background-color: blue;
+}
+.main-bottom .top:after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* footer */
