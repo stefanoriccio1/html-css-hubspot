@@ -343,11 +343,21 @@ main{
   text-decoration: none;
   color: white;
 }
-
 /* main-center */
 .main-center{
   height: 400px;
-  background-color: #50B9A9;
+  background-image: linear-gradient(to bottom right, #45A8BA, #53BDA6);
+}
+.learn-and-grow{
+  width: 80%;
+  margin: auto;
+  padding-top: 25px;
+  text-align: center;
+  color: white;
+}
+.learn-and-grow p{
+  font-size: 15px;
+  margin-top: 25px;
 }
 /* main-bottom */
 .main-bottom{
