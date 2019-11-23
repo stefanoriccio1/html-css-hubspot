@@ -173,6 +173,15 @@ header{
   font-size: 15px;
   margin-bottom: 35px;
 }
+.testo-banner .scrittapiccola{
+  color: #33465B;
+  font-size: 5px;
+  margin-bottom: 35px;
+  margin-top: 35px;
+}
+.testo-banner .scrittapiccola p{
+  font-size: 10px;
+}
 .testo-banner .button{
   padding: 15px 20px;
   text-decoration: none;
@@ -412,9 +421,14 @@ main{
 .main-bottom{
   background-color: white;
 }
+.container-main-bottom:after{
+  content: "";
+  display: table;
+  clear: both;
+}
 .container-main-bottom{
   width: 80%;
-  height: 400px;
+  height: 600px;
   margin: auto;
   padding: 40px 0 40px 0;
   text-align: center;
@@ -461,6 +475,30 @@ main{
   height: 13px;
   font-size: 20px;
   width: auto;
+}
+
+/* container bottom testo e immagine */
+.container-bottom.bottom::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.container-bottom.bottom{
+  position: relative;
+  }
+  .container-bottom .testo-banner{
+  height: 300px;
+  width: 40%;
+  margin: 0;
+  text-align: left;
+  margin-top: 50px;
+}
+.container-immagine{
+  float: right;
+  padding-top: 40px;
+}
+.container-immagine img{
+  height: 300px;
 }
 /* footer */
 footer{
