@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
   margin: 0;
-  padding: 0
+  padding: 0;
 }
 /* header */
 header{
@@ -410,14 +410,18 @@ main{
 }
 /* main-bottom */
 .main-bottom{
+  background-color: white;
+}
+.container-main-bottom{
   width: 80%;
   height: 400px;
   margin: auto;
-  background-color: pink;
+  padding: 40px 0 40px 0;
+  text-align: center;
+  color: #33465B;
 }
 .main-bottom .top{
   width: 90%;
-  height: 100px;
   margin: auto;
   background-color: blue;
 }
@@ -426,7 +430,20 @@ main{
   display: table;
   clear: both;
 }
-
+.main-bottom .numbers{
+  float: left;
+  width: 20%;
+  text-align: left;
+}
+.main-bottom .customers{
+  float: left;
+  width: 80%;
+  text-align: center;
+}
+.numbers h2{
+font-size: 30px;
+margin-bottom: 10px;
+}
 /* footer */
 footer{
   background-color: yellow;
