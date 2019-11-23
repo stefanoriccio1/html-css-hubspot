@@ -345,8 +345,9 @@ main{
 }
 /* main-center */
 .main-center{
-  height: 400px;
   background-image: linear-gradient(to bottom right, #45A8BA, #53BDA6);
+  padding-top: 50px;
+  padding-bottom: 70px;
 }
 .learn-and-grow{
   width: 80%;
@@ -368,7 +369,7 @@ main{
 .container-griglia{
   width: 80%;
   margin: auto;
-  padding-top: 20px;
+  padding-top: 60px;
   text-align: center;
   color: white;
 }
@@ -376,7 +377,19 @@ main{
   float: left;
   width: 25%;
   padding:10px;
-  background-color: yellow;
+}
+.griglia-box.top{
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+.griglia-box.bottom{
+  border-right: 1px solid white;
+}
+.container-griglia div:nth-child(4){
+  border-right: none;
+}
+.container-griglia div:last-child{
+  border-right: none;
 }
 .griglia-box img{
   height: 25px;
