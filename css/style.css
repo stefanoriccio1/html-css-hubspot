@@ -379,17 +379,18 @@ main{
   background-color: yellow;
 }
 .griglia-box img{
-  height: 30px;
+  height: 25px;
   width: auto;
+  margin-bottom: 5px;
 }
 .griglia-box h2{
   font-size: 40px;
+  text-transform: uppercase;
 }
 .griglia-box .fa-plus{
   font-size: 15px;
   display: inline-block;
   vertical-align: middle;
-  margin-left: -5px;
 }
 .griglia-box p{
   font-size: 13px;
