@@ -375,8 +375,24 @@ main{
 .griglia-box{
   float: left;
   width: 25%;
-  height: 100px;
+  padding:10px;
   background-color: yellow;
+}
+.griglia-box img{
+  height: 30px;
+  width: auto;
+}
+.griglia-box h2{
+  font-size: 40px;
+}
+.griglia-box .fa-plus{
+  font-size: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: -5px;
+}
+.griglia-box p{
+  font-size: 13px;
 }
 /* main-bottom */
 .main-bottom{
