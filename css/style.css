@@ -423,7 +423,6 @@ main{
 .main-bottom .top{
   width: 90%;
   margin: auto;
-  background-color: blue;
 }
 .main-bottom .top:after{
   content: "";
@@ -439,11 +438,11 @@ main{
   float: right;
   width: 80%;
   text-align: center;
-  background-color: green;
 }
 .numbers h2{
   font-size: 30px;
   margin-bottom: 10px;
+  padding-top: 30px;
 }
 /* griglia destra customers */
 .customers:after{
@@ -453,14 +452,14 @@ main{
 }
 .customers .griglia-customers-container{
   float: right;
+  margin-left: 200px;
 }
 .customers .customers-box{
-  height: 100px;
-  width: auto;
-  background-color: yellow;
+  width: 25%;
 }
 .griglia-box.customers-box img{
   height: 13px;
+  font-size: 20px;
   width: auto;
 }
 /* footer */
