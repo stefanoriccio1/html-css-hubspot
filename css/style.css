@@ -359,6 +359,25 @@ main{
   font-size: 15px;
   margin-top: 25px;
 }
+/* griglia di box */
+.container-griglia:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.container-griglia{
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+}
+.griglia-box{
+  float: left;
+  width: 25%;
+  height: 100px;
+  background-color: yellow;
+}
 /* main-bottom */
 .main-bottom{
   height: 400px;
