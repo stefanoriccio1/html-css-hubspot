@@ -527,3 +527,9 @@ footer{
   text-decoration: none;
   color: #7C98B6;
 }
+.footer-list .support-button{
+  border: 1px solid white;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: white;
+}
