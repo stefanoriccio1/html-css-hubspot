@@ -503,5 +503,27 @@ main{
 /* footer */
 footer{
   background-color: #33465B;
-  height: 200px;
+}
+.container-footer{
+  width: 80%;
+  margin: auto;
+  padding-top: 40px;
+}
+.footer-top::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer-list{
+  float: left;
+  width: 25%;
+  line-height: 30px;
+}
+.footer-list li{
+  color: white;
+  list-style: none;
+}
+.footer-list li a{
+  text-decoration: none;
+  color: #7C98B6;
 }
