@@ -509,6 +509,7 @@ footer{
   margin: auto;
   padding-top: 40px;
 }
+/* footer top */
 .footer-top::after{
   content: "";
   display: table;
@@ -538,4 +539,21 @@ footer{
   margin-right: 20px;
   padding-top: 10px;
   color: #7C98B6;
+}
+/* footer bottom */
+.footer-bottom .container-footerbottom{
+  width: 100%;
+  padding-top: 30px auto;
+  text-align: center;
+}
+.lingue li{
+  display: inline-block;
+  margin-right: 10px;
+}
+.container-footerbottom .lingue li a{
+  text-decoration: none;
+  color: #7C98B6;
+}
+.container-footerbottom hr{
+  border: 3px solid #7C98B6;
 }
