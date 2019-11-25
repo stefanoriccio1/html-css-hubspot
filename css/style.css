@@ -529,7 +529,13 @@ footer{
 }
 .footer-list .support-button{
   border: 1px solid white;
-  padding: 3px;
+  padding: 5px;
   border-radius: 5px;
   background-color: white;
+}
+.social-logo li{
+  display: inline-block;
+  margin-right: 20px;
+  padding-top: 10px;
+  color: #7C98B6;
 }
