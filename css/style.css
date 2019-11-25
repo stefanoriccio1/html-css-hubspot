@@ -116,11 +116,10 @@ header{
   width: 80%;
   margin: auto;
 }
-.logo{
+.secondnavbar .left .logo{
   width: 100px;
   height: 70px;
   margin-left: -5px;
-  margin-top: 0;
   vertical-align: middle;
   padding-bottom: 20px;
 }
