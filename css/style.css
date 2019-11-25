@@ -459,7 +459,7 @@ main{
   margin-bottom: 10px;
   padding-top: 30px;
 }
-/* grill destra customers */
+/* grill dx customers */
 .customers:after{
   content: "";
   display: table;
@@ -474,12 +474,10 @@ main{
 }
 .grill-box.customers-box img{
   height: auto;
-  font-size: 20px;
   width: 100px;
   text-align: center;
   vertical-align: middle;
 }
-
 /* container bottom testo e immagine */
 .container-bottom.bottom::after{
   content: "";
