@@ -209,7 +209,7 @@ main{
   text-align: center;
   color: #33465B;
 }
-.container1 .cubo{
+.container1 .cube{
   margin-bottom: 15px;
 }
 .container1 h2 {
@@ -366,52 +366,52 @@ main{
   font-size: 15px;
   margin-top: 25px;
 }
-/* griglia di box */
-.container-griglia:after{
+/* grill di box */
+.container-grill:after{
   content: "";
   display: table;
   clear: both;
 }
-.container-griglia{
+.container-grill{
   width: 80%;
   margin: auto;
   padding-top: 60px;
   text-align: center;
   color: white;
 }
-.griglia-box{
+.grill-box{
   float: left;
   width: 25%;
   padding:30px;
 }
-.griglia-box.top{
+.grill-box.top{
   border-bottom: 1px solid white;
   border-right: 1px solid white;
 }
-.griglia-box.bottom{
+.grill-box.bottom{
   border-right: 1px solid white;
 }
-.container-griglia div:nth-child(4){
+.container-grill div:nth-child(4){
   border-right: none;
 }
-.container-griglia div:last-child{
+.container-grill div:last-child{
   border-right: none;
 }
-.griglia-box img{
+.grill-box img{
   height: 25px;
   width: auto;
   margin-bottom: 5px;
 }
-.griglia-box h2{
+.grill-box h2{
   font-size: 40px;
   text-transform: uppercase;
 }
-.griglia-box .fa-plus{
+.grill-box .fa-plus{
   font-size: 15px;
   display: inline-block;
   vertical-align: middle;
 }
-.griglia-box p{
+.grill-box p{
   font-size: 13px;
 }
 /* main-bottom */
@@ -455,20 +455,20 @@ main{
   margin-bottom: 10px;
   padding-top: 30px;
 }
-/* griglia destra customers */
+/* grill destra customers */
 .customers:after{
   content: "";
   display: table;
   clear: both;
 }
-.customers .griglia-customers-container{
+.customers .grill-customers-container{
   float: right;
   margin-left: 200px;
 }
 .customers .customers-box{
   width: 25%;
 }
-.griglia-box.customers-box img{
+.grill-box.customers-box img{
   height: 13px;
   font-size: 20px;
   width: auto;
@@ -483,18 +483,18 @@ main{
 .container-bottom.bottom{
   position: relative;
   }
-  .container-bottom .testo-banner{
+  .container-bottom .text-banner{
   height: 300px;
   width: 40%;
   margin: 0;
   text-align: left;
   margin-top: 50px;
 }
-.container-immagine{
+.container-image{
   float: right;
   padding-top: 40px;
 }
-.container-immagine img{
+.container-image img{
   height: 300px;
 }
 /* footer */
