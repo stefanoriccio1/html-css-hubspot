@@ -98,6 +98,10 @@ header{
 .menu.list li .github{
   background-color: #F28E71;
 }
+.menu.list li .github:hover{
+  background-color: white;
+  color: #F28E71;
+}
 .menu.list li .fa-search{
   color: #43A5BE;
 }
@@ -186,6 +190,7 @@ header{
   text-decoration: none;
   color: white;
   background-color: #F18D71;
+}
 }
 .testo-banner h4{
   margin-top: 30px;
@@ -580,3 +585,8 @@ footer{
   color: #7C98B6;
   margin-left: 20px;
 }
+
+/* Buttons */
+.button:hover{
+  background-color: white;
+  color:#F28E71;
