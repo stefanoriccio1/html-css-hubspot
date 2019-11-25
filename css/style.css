@@ -21,6 +21,8 @@ header{
   border-bottom: 2px solid #33465B;
 }
 .button{
+  display: inline-block;
+  vertical-align: middle;
   border:2px solid #F28E71;
   border-radius: 5px;
   padding:7px;
@@ -94,9 +96,11 @@ header{
 }
 .menu.list li .login{
   color: #F28E71;
+  padding: 1px 5px;
 }
 .menu.list li .github{
   background-color: #F28E71;
+  padding: 1px 5px;
 }
 .menu.list li .github:hover{
   background-color: white;
@@ -469,9 +473,11 @@ main{
   width: 25%;
 }
 .grill-box.customers-box img{
-  height: 13px;
+  height: auto;
   font-size: 20px;
-  width: auto;
+  width: 100px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 /* container bottom testo e immagine */
