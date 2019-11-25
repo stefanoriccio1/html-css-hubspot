@@ -160,44 +160,37 @@ header{
   margin: 0;
   text-align: left;
 }
-.testo-banner{
+.text-banner{
   position: absolute;
   top: 40%;
   left: 0;
   transform: translateY(-50%);
 }
-.testo-banner .titolo{
+.text-banner .title{
   margin-bottom: 20px;
   color: #33465B;
   font-size: 40px;
 }
-.testo-banner p{
+.text-banner p{
   color: #33465B;
   font-size: 15px;
   margin-bottom: 35px;
 }
-.testo-banner .scrittapiccola{
+.text-banner .shortmessage{
   color: #33465B;
   font-size: 5px;
   margin-bottom: 35px;
   margin-top: 35px;
 }
-.testo-banner .scrittapiccola p{
+.text-banner .shortmessage p{
   font-size: 10px;
 }
-.testo-banner .button{
+.text-banner .button{
   padding: 15px 20px;
   text-decoration: none;
   color: white;
   background-color: #F18D71;
 }
-}
-.testo-banner h4{
-  margin-top: 30px;
-  color: #33465B;
-  font-size: 12px;
-}
-
 /* main */
 main{
   background-color: #F5F8FA;
@@ -550,14 +543,14 @@ footer{
   padding-top: 30px auto;
   text-align: center;
 }
-.lingue{
+.languages {
   margin-top: 20px;
 }
-.lingue li{
+.languages li{
   display: inline-block;
   margin-right: 20px;
 }
-.container-footerbottom .lingue li a{
+.container-footerbottom .languages li a{
   text-decoration: none;
   color: #7C98B6;
 }
