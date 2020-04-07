@@ -17,6 +17,7 @@ header{
   color: #ACEAE3;
   background-color: #ACEAE3;
   z-index: 2;
+  overflow-y: hidden;
   border-top: 2px solid #33465B;
   border-bottom: 2px solid #33465B;
 }
@@ -478,6 +479,7 @@ main{
   text-align: center;
   vertical-align: middle;
 }
+
 /* container bottom testo e immagine */
 .container-bottom.bottom::after{
   content: "";
